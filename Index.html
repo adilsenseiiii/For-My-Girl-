@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Happy Birthday Winyok ❤️</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    background:#090909;
+    color:white;
+    font-family:Georgia,serif;
+    overflow:hidden;
+}
+
+.home{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:25px;
+    background:
+        radial-gradient(circle at 50% 40%, #4b1629 0%, #180b12 35%, #090909 75%);
+    position:relative;
+}
+
+.date{
+    color:#d99aaa;
+    font-family:Arial,sans-serif;
+    font-size:12px;
+    letter-spacing:5px;
+    margin-bottom:25px;
+}
+
+h1{
+    font-size:clamp(42px,12vw,75px);
+    letter-spacing:4px;
+    margin-bottom:18px;
+}
+
+.heart{
+    color:#ff4f76;
+    display:inline-block;
+    animation:heartbeat 1.3s infinite;
+}
+
+@keyframes heartbeat{
+    0%,100%{transform:scale(1);}
+    50%{transform:scale(1.25);}
+}
+
+.subtitle{
+    max-width:360px;
+    color:#c9c9c9;
+    font-family:Arial,sans-serif;
+    font-size:15px;
+    line-height:1.8;
+    margin-bottom:38px;
+}
+
+.open-btn{
+    text-decoration:none;
+    display:inline-block;
+    padding:16px 30px;
+    border:1px solid #ff5577;
+    border-radius:50px;
+    color:white;
+    font-family:Arial,sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    letter-spacing:2px;
+    transition:0.3s;
+}
+
+.open-btn:hover{
+    background:#ff5577;
+    transform:scale(1.06);
+    box-shadow:0 0 30px rgba(255,85,119,0.35);
+}
+
+.glow{
+    position:absolute;
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    background:#ff315f;
+    filter:blur(130px);
+    opacity:0.13;
+}
+
+.glow1{
+    top:-80px;
+    left:-80px;
+}
+
+.glow2{
+    bottom:-100px;
+    right:-80px;
+}
+</style>
+</head>
+
+<body>
+
+<section class="home">
+
+    <div class="glow glow1"></div>
+    <div class="glow glow2"></div>
+
+    <div class="date">
+        21 • SEPTEMBER • 2026
+    </div>
+
+    <h1>
+        HAPPY<br>
+        BIRTHDAY
+        <span class="heart">♥</span>
+        <br>
+        WINYOK
+    </h1>
+
+    <p class="subtitle">
+        Aaj ka din thoda special hai...
+        kyunki aaj duniya mein
+        <b>tum aayi thi.</b>
+        ❤️
+        <br><br>
+        Aur maine tumhare liye
+        kuch chhota sa nahi...
+        <b>kuch special banaya hai.</b>
+    </p>
+
+    <a href="#surprise" class="open-btn">
+        OPEN YOUR SURPRISE
+    </a>
+
+</section>
+
+</body>
+</html>
